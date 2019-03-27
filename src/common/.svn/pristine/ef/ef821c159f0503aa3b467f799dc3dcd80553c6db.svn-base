@@ -1,0 +1,36 @@
+package common.api.data;
+
+import common.api.IRepresentative;
+import provided.datapacket.DataPacketIDFactory;
+import provided.datapacket.IDataPacketData;
+import provided.datapacket.IDataPacketID;
+
+/**
+ * A datapacket compatible data type that contains an IRepresentative stub.
+ * Instruct all chat room members to remove the contained stub from the set of IRepresentatives 
+ * contained in their local copy of chat room.
+ * 
+ * @author Design Group E
+ */
+public interface IRemoveRep extends IDataPacketData {
+	/**
+	 * Retrieve the ID value directly from the interface.
+	 * getID() merely delegates to this method.
+	 * @return The host ID value associated with this data type.
+	 */
+	public static IDataPacketID GetID() {
+		return DataPacketIDFactory.Singleton.makeID(IRemoveRep.class);
+	}
+	
+	@Override
+	public default IDataPacketID getID() {
+		return IRemoveRep.GetID();
+	}
+	
+	/**
+	 * Get the stored IRepresentative stub.
+	 * @return the IRepresentative stub to remove from chat room.
+	 */
+	public IRepresentative getRepToRemove();
+
+}

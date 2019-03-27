@@ -1,0 +1,19 @@
+package common.api;
+
+import javax.swing.JComponent;
+
+/**
+ * Interface to make a JComponent
+ * @author jacquilee
+ * @param <T> Subclass of JComponent to add
+ *
+ */
+public interface IComponentFactory<T extends JComponent> {
+	
+	/**
+	 * Returns a JComponent to send to a GUI
+	 * @return a JComponent for the receiver to display
+	 */
+	T make();
+
+}

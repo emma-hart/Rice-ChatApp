@@ -1,0 +1,68 @@
+package common.api;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.util.Set;
+import java.util.UUID;
+
+import provided.rmiUtils.IRMI_Defs;
+import representative.IRepresentative;
+
+/**
+ * Interface for a ChatApp user.
+ * This is the actual RMI server object bound to the registry and used for initial connection.
+ * 
+ * @author Design Group E
+ */
+public interface IUser extends Remote {
+	/**
+	 * The name the IUser object will be bound to in the RMI Registry
+	 */
+	public static final String BOUND_NAME = "User";
+	
+	/**
+	 * The port that will be used to bind a user to
+	 */
+	public static final int BOUND_PORT = IRMI_Defs.STUB_PORT_SERVER;
+	
+	/**
+	 * Accessor for the user's unique ID
+	 * @return  this user's unique ID
+	 * @throws RemoteException if the network connection failed
+	 */
+	public UUID getUserID() throws RemoteException;
+	
+	/**
+	 * Accessor for the user's name
+	 * @return this user's name
+	 * @throws RemoteException if the network connection failed
+	 */
+	public String getName() throws RemoteException;
+	
+	/**
+	 * Accessor for the joined chat rooms
+	 * @return  the set of chat rooms that this user is a part of
+	 * @throws RemoteException if the network connection failed
+	 */
+	public Set<IChatRoom> getChatRooms() throws RemoteException;
+	
+	/**
+	 * Accessor for all memberships of the user in different chat rooms.
+	 * @return the set of representatives, each of which represents for the user's presence in a chat room
+	 */
+	public Set<IRepresentative> getRepresentatives() throws RemoteException;
+	
+	/**
+	 * Allows the remote user to auto-connect back.
+	 * @param other stub of the remote user who wants to connect to this user
+	 * @throws RemoteException if the network connection failed
+	 */
+	public void connectTo(IUser other) throws RemoteException;
+	
+	/**
+	 * Called by a remote user to invite this user to join a chat room. 
+	 * @param room the room this user will join to
+	 * @throws RemoteException if the network connection failed
+	 */
+	public void joinTo(IChatRoom room) throws RemoteException;
+	
+}

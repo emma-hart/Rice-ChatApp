@@ -1,0 +1,33 @@
+package common.message;
+
+import common.ICmd2ModelAdapter;
+import common.IMember;
+import provided.datapacket.ADataPacketAlgoCmd;
+import provided.datapacket.DataPacket;
+import provided.datapacket.IDataPacketData;
+
+
+/**
+ * Abstract commands class used for message commands.
+ * @param <T> A sub type of IDataPacketData
+ * 
+ */
+public abstract class AMessageCmd<T extends IDataPacketData> extends ADataPacketAlgoCmd<Void, T, Void, ICmd2ModelAdapter, DataPacket<T, IMember>> {
+
+	
+	/**
+	 * Auto generated serial version ID.
+	 */
+	private static final long serialVersionUID = -2211087162454226206L;
+	
+	/**
+	 * An adapter that allows this command to access the local model.
+	 */
+	protected transient ICmd2ModelAdapter _cmd2ModelAdpt;
+
+	@Override
+	public void setCmd2ModelAdpt(ICmd2ModelAdapter cmd2ModelAdpt) {
+		this._cmd2ModelAdpt = cmd2ModelAdpt;
+	}
+
+}

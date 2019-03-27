@@ -1,0 +1,45 @@
+package common.api;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.util.UUID;
+
+import provided.datapacket.ADataPacket;
+import provided.rmiUtils.IRMI_Defs;
+
+/**
+ * Interface representing a member in the chat room.
+ * Each representative corresponds to only one chat room.
+ * Each user has multiple representatives when in multiple chat rooms.
+ * 
+ * @author Design Group E
+ */
+public interface IRepresentative extends Remote {
+	/**
+	 * The port that the other user will use to 
+	 * communicate with the IRepresentative object on local machine.  
+	 */
+	public static final int BOUND_PORT = IRMI_Defs.STUB_PORT_SERVER;
+	
+	/**
+	 * Get the room this representative is in.
+	 * @return the chat room this representative belongs to.
+	 */
+	IChatRoom getRoom() throws RemoteException;
+	
+	/**
+	 * Receive a data packet from the chat room.
+	 * @param data the received data packet.
+	 */
+	void receiveMessage(ADataPacket data) throws RemoteException;
+	
+	/**
+	 * Get ID of the representative.
+	 * @return unique ID of the representative.
+	 */
+	UUID getID() throws RemoteException;
+
+	//String getUserName() throws RemoteException;
+	
+	UUID getUserID() throws RemoteException;
+}

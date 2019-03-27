@@ -1,0 +1,22 @@
+package common.api;
+
+import javax.swing.JComponent;
+
+/**
+ * Adapter that allows interaction between foreign commands and the local Mini-Model.
+ * @author Design Group E
+ *
+ */
+public interface ICmd2ModelAdapter {
+	/**
+	 * Appends the message to the model, which allows the view to display this message.
+	 * @param text -- the message the sender wishes to display.
+	 */
+	public void appendString(String text);
+	
+	/**
+	 * Adds a JComponent to the model, which will then add it to the GUI.
+	 * @param component -- a component the sender wishes to add to the GUI.
+	 */
+	public void addGUIComponent(JComponent component);
+}

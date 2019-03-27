@@ -1,0 +1,18 @@
+package common.message;
+
+import provided.datapacket.IDataPacketData;
+
+/**
+ * This is the well-known status message that contains the command that caused this
+ * status to be returned.
+ * 
+ * @author Tommy Yuan 
+ */
+public interface IStatus extends IDataPacketData {
+	
+	/**
+	 * @return the IDataPacketData that caused this message to be sent.
+	 */
+	public IDataPacketData getOrigin();
+	
+}

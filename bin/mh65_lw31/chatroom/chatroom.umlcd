@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_bSa4IOD6EeiAkN-mMiInaQ">
+  <modelElement href="chatroom.uml#_bqJboeD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbZkIeD6EeiAkN-mMiInaQ" targetItem="_gbiuEOD6EeiAkN-mMiInaQ" sourceItem="_gbZkIOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbaLMeD6EeiAkN-mMiInaQ" targetItem="_gbiuHeD6EeiAkN-mMiInaQ" sourceItem="_gbaLMOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbaLM-D6EeiAkN-mMiInaQ" targetItem="_gbiuIuD6EeiAkN-mMiInaQ" sourceItem="_gbaLMuD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbayQOD6EeiAkN-mMiInaQ" targetItem="_gbiuJ-D6EeiAkN-mMiInaQ" sourceItem="_gbaLNOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbayQuD6EeiAkN-mMiInaQ" targetItem="_gbiuKuD6EeiAkN-mMiInaQ" sourceItem="_gbayQeD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gbfDsOD6EeiAkN-mMiInaQ" sourceAnchor="395.0,0.0" targetAnchor="0.0,145.0" target="_gb-y-eD6EeiAkN-mMiInaQ" source="_gbiuEOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buZpgeD6EeiAkN-mMiInaQ"/>
+    <bendpoints xmi:id="_g37IEOD6EeiAkN-mMiInaQ" sourceY="-200" targetX="-480"/>
+    <stereotypes xmi:id="_gbfDseD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buaQkOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gbfDsuD6EeiAkN-mMiInaQ" text="">
+      <visualProperties xmi:id="_g389QOD6EeiAkN-mMiInaQ" position="436.0,110.99999999999999"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gbfDs-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buZpguD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g38WMeD6EeiAkN-mMiInaQ" position="3.0,-65.0"/>
+      <visibility xmi:id="_gbfDtOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbfDteD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gbfDtuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="roomModel" navigable="true">
+      <modelElement href="chatroom.uml#_buBPAOD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g39kUOD6EeiAkN-mMiInaQ" position="-117.0,172.0"/>
+      <visibility xmi:id="_gbfDt-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gbfDuOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gbiHAOD6EeiAkN-mMiInaQ" sourceAnchor="365.0,0.0" targetAnchor="0.0,119.0" target="_gc1ukOD6EeiAkN-mMiInaQ" source="_gbiuEOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buaQkeD6EeiAkN-mMiInaQ"/>
+    <bendpoints xmi:id="_g37vIOD6EeiAkN-mMiInaQ" sourceY="-902" targetX="-58"/>
+    <stereotypes xmi:id="_gbiHAeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_bua3oOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gbiHAuD6EeiAkN-mMiInaQ" text="">
+      <visualProperties xmi:id="_g4AAkOD6EeiAkN-mMiInaQ" position="-19.0,875.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gbiHA-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buaQkuD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g3_ZgOD6EeiAkN-mMiInaQ" position="-17.0,-76.0"/>
+      <visibility xmi:id="_gbiHBOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbiHBeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gbiHBuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="roomView" navigable="true">
+      <modelElement href="chatroom.uml#_buBPAuD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4AAkeD6EeiAkN-mMiInaQ" position="-96.0,908.0"/>
+      <visibility xmi:id="_gbiHB-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gbiHCOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbnmkeD6EeiAkN-mMiInaQ" targetItem="_gbpbxOD6EeiAkN-mMiInaQ" sourceItem="_gbnmkOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gboNoOD6EeiAkN-mMiInaQ" sourceAnchor="757.0,0.0" targetAnchor="155.0,112.0" target="_gbpbxOD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buPRceD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gbo0s-D6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buP4gOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gbo0sOD6EeiAkN-mMiInaQ" text="">
+      <visualProperties xmi:id="_g4Cc0OD6EeiAkN-mMiInaQ" position="112.0,-58.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gbo0seD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buPRcuD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4BOsOD6EeiAkN-mMiInaQ" position="-17.0,-76.0"/>
+      <visibility xmi:id="_gbpbwOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbo0tOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gbo0suD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="m2MAdpt" navigable="true">
+      <modelElement href="chatroom.uml#_bt2P4OD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4DD4OD6EeiAkN-mMiInaQ" position="221.0,216.99999999999997"/>
+      <stereotypes xmi:id="_gbpbw-D6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt2P4eD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gbpbwuD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gbpbweD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbtGIOD6EeiAkN-mMiInaQ" targetItem="_gb-y-eD6EeiAkN-mMiInaQ" sourceItem="_gbsfEOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gbtGIeD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buNcQOD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gb1pAeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buODUOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gb1B8OD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gb1B8eD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buNcQeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb3eMeD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb3eMOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gb1pAOD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="chatroom" navigable="true">
+      <modelElement href="chatroom.uml#_bt1BwOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb3eM-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb3eMuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gbtGIuD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buP4geD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gb2QEeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buQfkOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gb1pAuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gb1pA-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buP4guD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb4FQOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb3eNeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gb2QEOD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="userStub" navigable="true">
+      <modelElement href="chatroom.uml#_bt2P4uD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb4FQuD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb4FQeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbttMeD6EeiAkN-mMiInaQ" targetItem="_gb_aH-D6EeiAkN-mMiInaQ" sourceItem="_gbttMOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbttM-D6EeiAkN-mMiInaQ" targetItem="_gb_aJeD6EeiAkN-mMiInaQ" sourceItem="_gbttMuD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbuUQeD6EeiAkN-mMiInaQ" targetItem="_gb_aK-D6EeiAkN-mMiInaQ" sourceItem="_gbuUQOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbu7UOD6EeiAkN-mMiInaQ" targetItem="_gb_aLuD6EeiAkN-mMiInaQ" sourceItem="_gbuUQuD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbu7UuD6EeiAkN-mMiInaQ" targetItem="_gb_aMeD6EeiAkN-mMiInaQ" sourceItem="_gbu7UeD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbviYeD6EeiAkN-mMiInaQ" targetItem="_gb_aNuD6EeiAkN-mMiInaQ" sourceItem="_gbviYOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbwJceD6EeiAkN-mMiInaQ" targetItem="_gb_aSOD6EeiAkN-mMiInaQ" sourceItem="_gbwJcOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbwwgeD6EeiAkN-mMiInaQ" targetItem="_gb_aTuD6EeiAkN-mMiInaQ" sourceItem="_gbwwgOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gbxXkeD6EeiAkN-mMiInaQ" targetItem="_gb_aVOD6EeiAkN-mMiInaQ" sourceItem="_gbxXkOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gb6hgOD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buODUeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gb6hgeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buPRcOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gb6hguD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gb6hg-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buODUuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb6hhOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb6hheD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gb6hhuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="repStub" navigable="true">
+      <modelElement href="chatroom.uml#_bt1o0eD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb6hh-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb6hiOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gb8WsOD6EeiAkN-mMiInaQ" sourceAnchor="914.0,145.0" targetAnchor="126.0,80.0" target="_gcTjEOD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buQfkeD6EeiAkN-mMiInaQ"/>
+    <bendpoints xmi:id="_g37vIeD6EeiAkN-mMiInaQ" sourceX="194" targetY="200"/>
+    <stereotypes xmi:id="_gb8WseD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buQfk-D6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gb8WsuD6EeiAkN-mMiInaQ" text="">
+      <visualProperties xmi:id="_g4E5EOD6EeiAkN-mMiInaQ" position="-99.5,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gb8Ws-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buQfkuD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4ESAOD6EeiAkN-mMiInaQ" position="37.5,-10.5"/>
+      <visibility xmi:id="_gb8WtOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb8WteD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gb8WtuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="m2vAdpt" navigable="true">
+      <modelElement href="chatroom.uml#_bt228eD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4FgIOD6EeiAkN-mMiInaQ" position="-7.000000000000227,-208.0"/>
+      <visibility xmi:id="_gb8Wt-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb8WuOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gb9k0OD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buQflOD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gb9k0eD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buRGoOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gb9k0uD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gb9k0-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buQfleD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb9k1OD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb9k1eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gb9k1uD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="visitor" navigable="true">
+      <modelElement href="chatroom.uml#_bt3eAeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb9k1-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb9k2OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gb-y8OD6EeiAkN-mMiInaQ" source="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buRGoeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gb-y8eD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buRtsOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gb-y8uD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gb-y8-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buRGouD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb-y9OD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb-y9eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gb-y9uD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="c2mAdpt" navigable="true">
+      <modelElement href="chatroom.uml#_bt4FEOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb-y9-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb-y-OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcSU8OD6EeiAkN-mMiInaQ" targetItem="_gcTjEOD6EeiAkN-mMiInaQ" sourceItem="_gcRt4OD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcXNceD6EeiAkN-mMiInaQ" targetItem="_gcbe4OD6EeiAkN-mMiInaQ" sourceItem="_gcXNcOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcX0gOD6EeiAkN-mMiInaQ" sourceAnchor="449.0,119.0" targetAnchor="103.0,116.0" target="_gcbe4OD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buSUwOD6EeiAkN-mMiInaQ"/>
+    <bendpoints xmi:id="_g38WMOD6EeiAkN-mMiInaQ" sourceX="175" targetY="174"/>
+    <stereotypes xmi:id="_gcaQwOD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buS70OD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcZpsOD6EeiAkN-mMiInaQ" text="">
+      <visualProperties xmi:id="_g4GuQOD6EeiAkN-mMiInaQ" position="-135.5,54.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gcZpseD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buSUweD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4GHMOD6EeiAkN-mMiInaQ" position="49.0,-30.5"/>
+      <visibility xmi:id="_gcaQwuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcaQweD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcZpsuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="v2mAdpt" navigable="true">
+      <modelElement href="chatroom.uml#_bt5TMeD6EeiAkN-mMiInaQ"/>
+      <visualProperties xmi:id="_g4HVUOD6EeiAkN-mMiInaQ" position="-332.0,275.5"/>
+      <stereotypes xmi:id="_gca30eD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt5TMuD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gca30OD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcaQw-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcX0guD6EeiAkN-mMiInaQ" targetItem="_gcbe4-D6EeiAkN-mMiInaQ" sourceItem="_gcX0geD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcYbkeD6EeiAkN-mMiInaQ" targetItem="_gcbe5uD6EeiAkN-mMiInaQ" sourceItem="_gcYbkOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcZCoeD6EeiAkN-mMiInaQ" targetItem="_gcbe7OD6EeiAkN-mMiInaQ" sourceItem="_gcZCoOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcZCo-D6EeiAkN-mMiInaQ" targetItem="_gcbe8uD6EeiAkN-mMiInaQ" sourceItem="_gcZCouD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcg-ceD6EeiAkN-mMiInaQ" targetItem="_gc1ukOD6EeiAkN-mMiInaQ" sourceItem="_gcg-cOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gciMkOD6EeiAkN-mMiInaQ" targetItem="_gc1uzeD6EeiAkN-mMiInaQ" sourceItem="_gchlgOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gciMkuD6EeiAkN-mMiInaQ" targetItem="_gc1u0OD6EeiAkN-mMiInaQ" sourceItem="_gciMkeD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcizoeD6EeiAkN-mMiInaQ" targetItem="_gc1u0-D6EeiAkN-mMiInaQ" sourceItem="_gcizoOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcjaseD6EeiAkN-mMiInaQ" targetItem="_gc1u2eD6EeiAkN-mMiInaQ" sourceItem="_gcjasOD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gcjas-D6EeiAkN-mMiInaQ" targetItem="_gc1u4uD6EeiAkN-mMiInaQ" sourceItem="_gcjasuD6EeiAkN-mMiInaQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gco6QOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buS70eD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gco6QeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buTi4OD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gco6QuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gco6Q-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buS70uD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gco6ROD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gco6ReD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gco6RuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="mainPanel" navigable="true">
+      <modelElement href="chatroom.uml#_bt56QOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gco6R-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gco6SOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcqIYOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buTi4eD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcqIYeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buUJ8OD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcqIYuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcqIY-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buTi4uD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcqIZOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcqIZeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcqIZuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="controlPanel" navigable="true">
+      <modelElement href="chatroom.uml#_bt6hUOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcqIZ-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcqIaOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcrWgOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buUJ8eD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcrWgeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buUxAOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcrWguD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcrWg-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buUJ8uD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcrWhOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcrWheD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcrWhuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="displayPanel" navigable="true">
+      <modelElement href="chatroom.uml#_bt7IYeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcrWh-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcrWiOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcskoOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buUxAeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcskoeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buVYEOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcskouD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcsko-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buUxAuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcskpOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcskpeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcskpuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="textAreaRoom" navigable="true">
+      <modelElement href="chatroom.uml#_bt7vceD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcskp-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcskqOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gctywOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buVYEeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gctyweD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buV_IOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gctywuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gctyw-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buVYEuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gctyxOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gctyxeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gctyxuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="panelText" navigable="true">
+      <modelElement href="chatroom.uml#_bt8WgeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gctyx-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gctyyOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcvA4OD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buV_IeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcvA4eD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buWmMOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcvA4uD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcvA4-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buV_IuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcvA5OD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcvA5eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcvA5uD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="textField" navigable="true">
+      <modelElement href="chatroom.uml#_bt89kOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcvA5-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcvA6OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcw2EOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buWmMeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcw2EeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buXNQOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcw2EuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcw2E-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buWmMuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcw2FOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcw2FeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcw2FuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="btnSendMsg" navigable="true">
+      <modelElement href="chatroom.uml#_bt9koOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcw2F-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcw2GOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcyEMOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buXNQeD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcyEMeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buX0UOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcyEMuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcyEM-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buXNQuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcyENOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcyENeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcyENuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="panelMessage" navigable="true">
+      <modelElement href="chatroom.uml#_bt-yweD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcyEN-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcyEOOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gczSUOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buYbYOD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gczSUeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buZCcOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gczSUuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gczSU-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buYbYeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gczSVOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gczSVeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gczSVuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="btnLeave" navigable="true">
+      <modelElement href="chatroom.uml#_bt_Z0eD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gczSV-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gczSWOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gcz5YOD6EeiAkN-mMiInaQ" source="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buZCceD6EeiAkN-mMiInaQ"/>
+    <stereotypes xmi:id="_gcz5YeD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_buZpgOD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gcz5YuD6EeiAkN-mMiInaQ" text=""/>
+    <sourceRole xmi:id="_gcz5Y-D6EeiAkN-mMiInaQ" aggregationKind="NONE" name="">
+      <modelElement href="chatroom.uml#_buZCcuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcz5ZOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcz5ZeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gcz5ZuD6EeiAkN-mMiInaQ" aggregationKind="NONE" name="btnSendUnknown" navigable="true">
+      <modelElement href="chatroom.uml#_buAA4eD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcz5Z-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gcz5aOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gc0gcOD6EeiAkN-mMiInaQ" subClass="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_btwJQuD6EeiAkN-mMiInaQ"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbZkIOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbZkIeD6EeiAkN-mMiInaQ" text="Controller of the mini MVC" item="_gbiuEOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY8-D6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbaLMOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbaLMeD6EeiAkN-mMiInaQ" text="Get the mini chat room model&#xA;&#x9; * @return The mini model" item="_gbiuHeD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY9eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbaLMuD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbaLM-D6EeiAkN-mMiInaQ" text="Get the mini chat room view&#xA;&#x9; * @return The mini view" item="_gbiuIuD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY9uD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbaLNOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbayQOD6EeiAkN-mMiInaQ" text="Start the model and the view" item="_gbiuJ-D6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY9-D6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbayQeD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbayQuD6EeiAkN-mMiInaQ" text="Constructor &#xA;&#x9; * @param chatroom Chat room&#xA;&#x9; * @param userMainStub Stub of the user.&#xA;&#x9; * @param m2MAdpt IMini2MainAdapter" item="_gbiuKuD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY9OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbnmkOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbnmkeD6EeiAkN-mMiInaQ" text="The adapter from the mini to main adapter" item="_gbpbxOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK0uD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbsfEOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbtGIOD6EeiAkN-mMiInaQ" text="Model of the mini MVC" item="_gb-y-eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK1OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbttMOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbttMeD6EeiAkN-mMiInaQ" text="Send text to member(s)&#xA;&#x9; * @param msg The text to send" item="_gb_aH-D6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx4OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbttMuD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbttM-D6EeiAkN-mMiInaQ" text="Send an image&#xA;&#x9; * @param imgPath The file path of the image" item="_gb_aJeD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx4eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbuUQOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbuUQeD6EeiAkN-mMiInaQ" text="Remove the room from the list of room" item="_gb_aK-D6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx4uD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbuUQuD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbu7UOD6EeiAkN-mMiInaQ" text="Leave current room&#xA;&#x9; * @throws RemoteException -- exception for leaving the room" item="_gb_aLuD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx4-D6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbu7UeD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbu7UuD6EeiAkN-mMiInaQ" text="Gets the room you are in.&#xA;&#x9; * @return The chat room" item="_gb_aMeD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx5OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbviYOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbviYeD6EeiAkN-mMiInaQ" text="@param room -- the room for this mini-model&#xA;&#x9; * @param adpt -- the mini to main adapter&#xA;&#x9; * @param _userStub -- the user's stub&#xA;&#x9; * @param _m2vAdpt -- the model to view adapter" item="_gb_aNuD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK1eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbwJcOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbwJceD6EeiAkN-mMiInaQ" text="Send message to everyone in chat room &#xA;&#x9; * @param DP Packet to send &#xA;&#x9; * @throws RemoteException -- remote excpetion when broadcasting a message" item="_gb_aSOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK1uD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbwwgOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbwwgeD6EeiAkN-mMiInaQ" text="Helper method for status sending errors.&#xA;&#x9; * @param rep The member that needs to be removed." item="_gb_aTuD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx5eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gbxXkOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gbxXkeD6EeiAkN-mMiInaQ" text="Helper method for status processing errors.&#xA;&#x9; * @param rep The member that sent the message.&#xA;&#x9; * @param id The ID of the faulty message.&#xA;&#x9; * @throws RemoteException -- exepction for status error" item="_gb_aVOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx5uD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcRt4OD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcSU8OD6EeiAkN-mMiInaQ" text="The adapter from the mini model to view" item="_gcTjEOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK0-D6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcXNcOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcXNceD6EeiAkN-mMiInaQ" text="View2ModelAdapter for the mini MVC chatroom." item="_gcbe4OD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buIjwOD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcX0geD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcX0guD6EeiAkN-mMiInaQ" text="Leave chatroom." item="_gcbe4-D6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buIjweD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcYbkOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcYbkeD6EeiAkN-mMiInaQ" text="Sends a string&#xA;&#x9; * @param text The text to send." item="_gcbe5uD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buIjwuD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcZCoOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcZCoeD6EeiAkN-mMiInaQ" text="Sends an image&#xA;&#x9; * @param path The image to send." item="_gcbe7OD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK0OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcZCouD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcZCo-D6EeiAkN-mMiInaQ" text="Remove room from list of rooms you're in." item="_gcbe8uD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJK0eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcg-cOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcg-ceD6EeiAkN-mMiInaQ" text="View of the chat room" item="_gc1ukOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx5-D6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gchlgOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gciMkOD6EeiAkN-mMiInaQ" text="Starts the view" item="_gc1uzeD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx6eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gciMkeD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gciMkuD6EeiAkN-mMiInaQ" text="Initializes the view." item="_gc1u0OD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY8OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcizoOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcizoeD6EeiAkN-mMiInaQ" text="Send a message&#xA;&#x9; * @param msg The message to send" item="_gc1u0-D6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY8eD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcjasOD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcjaseD6EeiAkN-mMiInaQ" text="Constructor&#xA;&#x9; * @param adpt IChatRoomView2ModelAdapter" item="_gc1u2eD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buJx6OD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gcjasuD6EeiAkN-mMiInaQ" sourceConnectionVisual="_gcjas-D6EeiAkN-mMiInaQ" text="Add GUI component&#xA;&#x9; * @param component The component to add" item="_gc1u4uD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_buKY8uD6EeiAkN-mMiInaQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gbiuEOD6EeiAkN-mMiInaQ" comments="_gbZkIOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbZkIeD6EeiAkN-mMiInaQ" name="ChatRoomController" associationsOut="_gbfDsOD6EeiAkN-mMiInaQ _gbiHAOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_brEBoOD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gbiuEeD6EeiAkN-mMiInaQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gbiuEuD6EeiAkN-mMiInaQ" label="+"/>
+    <attributes xmi:id="_gbiuE-D6EeiAkN-mMiInaQ" name="roomModel">
+      <modelElement href="chatroom.uml#_buBPAOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gbiuFOD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_buBPAeD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gbiuFeD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gbiuFuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gbiuF-D6EeiAkN-mMiInaQ" name="ChatRoomModel">
+        <modelElement href="chatroom.uml#_bquqcOD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gbiuGOD6EeiAkN-mMiInaQ" name="roomView">
+      <modelElement href="chatroom.uml#_buBPAuD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gbiuGeD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_buB2EOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gbiuGuD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gbiuG-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gbiuHOD6EeiAkN-mMiInaQ" name="ChatRoomView">
+        <modelElement href="chatroom.uml#_bq5CgOD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gbiuHeD6EeiAkN-mMiInaQ" comments="_gbaLMOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbaLMeD6EeiAkN-mMiInaQ" name="getMiniModel">
+      <modelElement href="chatroom.uml#_brFPwOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbiuHuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbiuH-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gbiuIOD6EeiAkN-mMiInaQ">
+        <modelElement href="chatroom.uml#_btit4OD6EeiAkN-mMiInaQ"/>
+        <type xmi:id="_gbiuIeD6EeiAkN-mMiInaQ" name="ChatRoomModel">
+          <modelElement href="chatroom.uml#_bquqcOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gbiuIuD6EeiAkN-mMiInaQ" comments="_gbaLMuD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbaLM-D6EeiAkN-mMiInaQ" name="getMiniView">
+      <modelElement href="chatroom.uml#_brF20OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbiuI-D6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbiuJOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gbiuJeD6EeiAkN-mMiInaQ">
+        <modelElement href="chatroom.uml#_btit4eD6EeiAkN-mMiInaQ"/>
+        <type xmi:id="_gbiuJuD6EeiAkN-mMiInaQ" name="ChatRoomView">
+          <modelElement href="chatroom.uml#_bq5CgOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gbiuJ-D6EeiAkN-mMiInaQ" comments="_gbaLNOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbayQOD6EeiAkN-mMiInaQ" name="start">
+      <modelElement href="chatroom.uml#_brHE8OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbiuKOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbiuKeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gbiuKuD6EeiAkN-mMiInaQ" comments="_gbayQeD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbayQuD6EeiAkN-mMiInaQ" name="ChatRoomController">
+      <modelElement href="chatroom.uml#_btx-cOD6EeiAkN-mMiInaQ"/>
+      <keywords xmi:id="_gbiuK-D6EeiAkN-mMiInaQ" keyword="create"/>
+      <visibility xmi:id="_gbiuLOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbiuLeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gbiuLuD6EeiAkN-mMiInaQ">
+        <modelElement href="chatroom.uml#_btylheD6EeiAkN-mMiInaQ"/>
+        <type xmi:id="_gbiuL-D6EeiAkN-mMiInaQ" name="ChatRoomController">
+          <modelElement href="chatroom.uml#_brEBoOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gbiuMOD6EeiAkN-mMiInaQ" name="chatroom">
+        <modelElement href="chatroom.uml#_btylgOD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbiuMeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbiuMuD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gbiuM-D6EeiAkN-mMiInaQ" name="userMainStub">
+        <modelElement href="chatroom.uml#_btylgeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbiuNOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbiuNeD6EeiAkN-mMiInaQ" name="IRemoteConnection">
+          <modelElement href="chatroom.uml#_bs_7UeD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gbiuNuD6EeiAkN-mMiInaQ" name="m2MAdpt">
+        <modelElement href="chatroom.uml#_btylguD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbiuN-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbiuOOD6EeiAkN-mMiInaQ" name="IMini2MainAdapter">
+          <modelElement href="chatroom.uml#_bqrnIOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_gbpbxOD6EeiAkN-mMiInaQ" comments="_gbnmkOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbnmkeD6EeiAkN-mMiInaQ" name="IMini2MainAdapter" associationsIn="_gboNoOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_bqrnIOD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gbpbxeD6EeiAkN-mMiInaQ" position="1507.0,-482.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gbpbxuD6EeiAkN-mMiInaQ" label="+"/>
+    <operations xmi:id="_gbpbx-D6EeiAkN-mMiInaQ" name="removeRoomFromMainView">
+      <modelElement href="chatroom.uml#_btmYQOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbpbyOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbpbyeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gbpbyuD6EeiAkN-mMiInaQ" name="room">
+        <modelElement href="chatroom.uml#_btmYQeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbpby-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbpbzOD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gbpbzeD6EeiAkN-mMiInaQ" name="addRoom2User">
+      <modelElement href="chatroom.uml#_btm_UOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbpbzuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbpbz-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gbpb0OD6EeiAkN-mMiInaQ" name="room">
+        <modelElement href="chatroom.uml#_btm_UeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbpb0eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbpb0uD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gbpb0-D6EeiAkN-mMiInaQ" name="removeRoom4User">
+      <modelElement href="chatroom.uml#_btm_UuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbpb1OD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbpb1eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gbpb1uD6EeiAkN-mMiInaQ" name="room">
+        <modelElement href="chatroom.uml#_btnmYOD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbpb1-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbpb2OD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gbpb2eD6EeiAkN-mMiInaQ" name="removeRoomFromMainList">
+      <modelElement href="chatroom.uml#_btnmYeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gbpb2uD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gbpb2-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gbpb3OD6EeiAkN-mMiInaQ" name="room">
+        <modelElement href="chatroom.uml#_btnmYuD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gbpb3eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gbpb3uD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gb-y-eD6EeiAkN-mMiInaQ" comments="_gbsfEOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbtGIOD6EeiAkN-mMiInaQ" name="ChatRoomModel" associationsIn="_gbfDsOD6EeiAkN-mMiInaQ" associationsOut="_gboNoOD6EeiAkN-mMiInaQ _gbtGIeD6EeiAkN-mMiInaQ _gbtGIuD6EeiAkN-mMiInaQ _gb6hgOD6EeiAkN-mMiInaQ _gb8WsOD6EeiAkN-mMiInaQ _gb9k0OD6EeiAkN-mMiInaQ _gb-y8OD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_bquqcOD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gb-y-uD6EeiAkN-mMiInaQ" position="905.0,-315.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gb-y--D6EeiAkN-mMiInaQ" label="+"/>
+    <attributes xmi:id="_gb-y_OD6EeiAkN-mMiInaQ" name="chatroom">
+      <modelElement href="chatroom.uml#_bt1BwOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb-y_eD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt1o0OD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb-y_uD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb-y_-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb-zAOD6EeiAkN-mMiInaQ" name="IChatRoom">
+        <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gb-zAeD6EeiAkN-mMiInaQ" name="repStub">
+      <modelElement href="chatroom.uml#_bt1o0eD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb-zAuD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt1o0uD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb_aAOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aAeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb_aAuD6EeiAkN-mMiInaQ" name="IMember">
+        <modelElement href="chatroom.uml#_bs_UQeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gb_aA-D6EeiAkN-mMiInaQ" name="m2MAdpt">
+      <modelElement href="chatroom.uml#_bt2P4OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aBOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aBeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb_aBuD6EeiAkN-mMiInaQ" name="IMini2MainAdapter">
+        <modelElement href="chatroom.uml#_bqrnIOD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gb_aB-D6EeiAkN-mMiInaQ" name="userStub">
+      <modelElement href="chatroom.uml#_bt2P4uD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb_aCOD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt228OD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb_aCeD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aCuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb_aC-D6EeiAkN-mMiInaQ" name="IRemoteConnection">
+        <modelElement href="chatroom.uml#_bs_7UeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gb_aDOD6EeiAkN-mMiInaQ" name="m2vAdpt">
+      <modelElement href="chatroom.uml#_bt228eD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb_aDeD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt3eAOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb_aDuD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aD-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb_aEOD6EeiAkN-mMiInaQ" name="IChatRoomModel2ViewAdapter">
+        <modelElement href="chatroom.uml#_bqs1QOD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gb_aEeD6EeiAkN-mMiInaQ" name="visitor">
+      <modelElement href="chatroom.uml#_bt3eAeD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb_aEuD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt3eAuD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb_aE-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aFOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb_aFeD6EeiAkN-mMiInaQ" name="ChatroomDataPacketAlgo">
+        <modelElement href="chatroom.uml#_btBwgeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gb_aFuD6EeiAkN-mMiInaQ" defaultValue="new ICmd2ModelAdapter() {&#xA;&#xA;&#x9;&#x9;@Override&#xA;&#x9;&#x9;public void addComponentFactory(Supplier&lt;Component> compFac) {&#xA;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xA;&#x9;&#x9;&#x9;m2vAdpt.addComponent(compFac.get());&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;@Override&#xA;&#x9;&#x9;public String getLocalName() {&#xA;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xA;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;return userStub.getName();&#xA;&#x9;&#x9;&#x9;} catch (RemoteException e) {&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated catch block&#xA;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;@Override&#xA;&#x9;&#x9;public void sendMessage(IDataPacketData msg) {&#xA;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;@Override&#xA;&#x9;&#x9;public void sendMessageTo(IDataPacketData msg, IMember member) {&#xA;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;}&#xA;&#x9;}" name="c2mAdpt">
+      <modelElement href="chatroom.uml#_bt4FEOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb_aF-D6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt4FEuD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb_aGOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aGeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gb_aGuD6EeiAkN-mMiInaQ" name="ICmd2ModelAdapter">
+        <modelElement href="chatroom.uml#_bs-tMeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gb_aG-D6EeiAkN-mMiInaQ" name="start">
+      <modelElement href="chatroom.uml#_bqwfoOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gb_aHOD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bqxGsOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gb_aHeD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aHuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gb_aH-D6EeiAkN-mMiInaQ" comments="_gbttMOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbttMeD6EeiAkN-mMiInaQ" name="sendText">
+      <modelElement href="chatroom.uml#_bqyU0OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aIOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aIeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gb_aIuD6EeiAkN-mMiInaQ" name="msg">
+        <modelElement href="chatroom.uml#_bqyU0eD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aI-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aJOD6EeiAkN-mMiInaQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gb_aJeD6EeiAkN-mMiInaQ" comments="_gbttMuD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbttM-D6EeiAkN-mMiInaQ" name="sendImage">
+      <modelElement href="chatroom.uml#_bqy74OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aJuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aJ-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gb_aKOD6EeiAkN-mMiInaQ" name="imgPath">
+        <modelElement href="chatroom.uml#_bqy74eD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aKeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aKuD6EeiAkN-mMiInaQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gb_aK-D6EeiAkN-mMiInaQ" comments="_gbuUQOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbuUQeD6EeiAkN-mMiInaQ" name="removeRoomfromList">
+      <modelElement href="chatroom.uml#_bqzi8OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aLOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aLeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gb_aLuD6EeiAkN-mMiInaQ" comments="_gbuUQuD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbu7UOD6EeiAkN-mMiInaQ" name="leaveRoom">
+      <modelElement href="chatroom.uml#_bqzi8eD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aL-D6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aMOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gb_aMeD6EeiAkN-mMiInaQ" comments="_gbu7UeD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbu7UuD6EeiAkN-mMiInaQ" name="getRoom">
+      <modelElement href="chatroom.uml#_bq0KAOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aMuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aM-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gb_aNOD6EeiAkN-mMiInaQ">
+        <modelElement href="chatroom.uml#_btr30eD6EeiAkN-mMiInaQ"/>
+        <type xmi:id="_gb_aNeD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gb_aNuD6EeiAkN-mMiInaQ" comments="_gbviYOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbviYeD6EeiAkN-mMiInaQ" name="ChatRoomModel">
+      <modelElement href="chatroom.uml#_btqCoOD6EeiAkN-mMiInaQ"/>
+      <keywords xmi:id="_gb_aN-D6EeiAkN-mMiInaQ" keyword="create"/>
+      <visibility xmi:id="_gb_aOOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aOeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gb_aOuD6EeiAkN-mMiInaQ">
+        <modelElement href="chatroom.uml#_btqps-D6EeiAkN-mMiInaQ"/>
+        <type xmi:id="_gb_aO-D6EeiAkN-mMiInaQ" name="ChatRoomModel">
+          <modelElement href="chatroom.uml#_bquqcOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gb_aPOD6EeiAkN-mMiInaQ" name="room">
+        <modelElement href="chatroom.uml#_btqCoeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aPeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aPuD6EeiAkN-mMiInaQ" name="IChatRoom">
+          <modelElement href="chatroom.uml#_bs2xYOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gb_aP-D6EeiAkN-mMiInaQ" name="adpt">
+        <modelElement href="chatroom.uml#_btqCouD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aQOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aQeD6EeiAkN-mMiInaQ" name="IMini2MainAdapter">
+          <modelElement href="chatroom.uml#_bqrnIOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gb_aQuD6EeiAkN-mMiInaQ" name="_userStub">
+        <modelElement href="chatroom.uml#_btqCo-D6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aQ-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aROD6EeiAkN-mMiInaQ" name="IRemoteConnection">
+          <modelElement href="chatroom.uml#_bs_7UeD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gb_aReD6EeiAkN-mMiInaQ" name="_m2vAdpt">
+        <modelElement href="chatroom.uml#_btqpsOD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aRuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aR-D6EeiAkN-mMiInaQ" name="IChatRoomModel2ViewAdapter">
+          <modelElement href="chatroom.uml#_bqs1QOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gb_aSOD6EeiAkN-mMiInaQ" comments="_gbwJcOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbwJceD6EeiAkN-mMiInaQ" name="broadcastMessage">
+      <modelElement href="chatroom.uml#_btrQwOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aSeD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gb_aSuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gb_aS-D6EeiAkN-mMiInaQ" name="DP">
+        <modelElement href="chatroom.uml#_btrQweD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aTOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aTeD6EeiAkN-mMiInaQ" name="ChatroomDataPacket">
+          <modelElement href="chatroom.uml#_btBJceD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gb_aTuD6EeiAkN-mMiInaQ" comments="_gbwwgOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbwwgeD6EeiAkN-mMiInaQ" name="statusSendingError">
+      <modelElement href="chatroom.uml#_btse4OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aT-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aUOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gb_aUeD6EeiAkN-mMiInaQ" name="rep">
+        <modelElement href="chatroom.uml#_btse4eD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aUuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aU-D6EeiAkN-mMiInaQ" name="IMember">
+          <modelElement href="chatroom.uml#_bs_UQeD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gb_aVOD6EeiAkN-mMiInaQ" comments="_gbxXkOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gbxXkeD6EeiAkN-mMiInaQ" name="statusProcessingError">
+      <modelElement href="chatroom.uml#_btse4uD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gb_aVeD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gb_aVuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gb_aV-D6EeiAkN-mMiInaQ" name="rep">
+        <modelElement href="chatroom.uml#_bttF8OD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aWOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aWeD6EeiAkN-mMiInaQ" name="IMember">
+          <modelElement href="chatroom.uml#_bs_UQeD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gb_aWuD6EeiAkN-mMiInaQ" name="id">
+        <modelElement href="chatroom.uml#_bttF8eD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gb_aW-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gb_aXOD6EeiAkN-mMiInaQ" name="IDataPacketID">
+          <modelElement href="chatroom.uml#_btSPMOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gcPRoOD6EeiAkN-mMiInaQ" name="RemoteException">
+    <modelElement href="chatroom.uml#_bs7C0eD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gcPRoeD6EeiAkN-mMiInaQ" position="1293.0,-439.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_gcPRouD6EeiAkN-mMiInaQ" name="Reference">
+      <modelElement href="chatroom.uml#_bs7C0uD6EeiAkN-mMiInaQ"/>
+    </stereotypes>
+    <visibility xmi:id="_gcPRo-D6EeiAkN-mMiInaQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_gcTjEOD6EeiAkN-mMiInaQ" comments="_gcRt4OD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcSU8OD6EeiAkN-mMiInaQ" name="IChatRoomModel2ViewAdapter" associationsIn="_gb8WsOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_bqs1QOD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gcTjEeD6EeiAkN-mMiInaQ" position="1887.0,-450.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gcTjEuD6EeiAkN-mMiInaQ" label="+"/>
+    <operations xmi:id="_gcTjE-D6EeiAkN-mMiInaQ" name="appendString">
+      <modelElement href="chatroom.uml#_bqtcUOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcTjFOD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcTjFeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gcTjFuD6EeiAkN-mMiInaQ" name="t">
+        <modelElement href="chatroom.uml#_bqtcUeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gcTjF-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gcTjGOD6EeiAkN-mMiInaQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gcTjGeD6EeiAkN-mMiInaQ" name="addComponent">
+      <modelElement href="chatroom.uml#_btoNcOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcTjGuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcTjG-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gcTjHOD6EeiAkN-mMiInaQ" name="comp">
+        <modelElement href="chatroom.uml#_btoNceD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gcTjHeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gcTjHuD6EeiAkN-mMiInaQ" name="Component">
+          <modelElement href="chatroom.uml#_bs3_gOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_gcbe4OD6EeiAkN-mMiInaQ" comments="_gcXNcOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcXNceD6EeiAkN-mMiInaQ" name="IChatRoomView2ModelAdapter" associationsIn="_gcX0gOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_bqn8wOD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gcbe4eD6EeiAkN-mMiInaQ" position="974.0,-1162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gcbe4uD6EeiAkN-mMiInaQ" label="+"/>
+    <operations xmi:id="_gcbe4-D6EeiAkN-mMiInaQ" comments="_gcX0geD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcX0guD6EeiAkN-mMiInaQ" name="leaveRoom">
+      <modelElement href="chatroom.uml#_bqpK4OD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcbe5OD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcbe5eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gcbe5uD6EeiAkN-mMiInaQ" comments="_gcYbkOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcYbkeD6EeiAkN-mMiInaQ" name="sendText">
+      <modelElement href="chatroom.uml#_bqqZBOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcbe5-D6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcbe6OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gcbe6eD6EeiAkN-mMiInaQ" name="text">
+        <modelElement href="chatroom.uml#_bqqZBeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gcbe6uD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gcbe6-D6EeiAkN-mMiInaQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gcbe7OD6EeiAkN-mMiInaQ" comments="_gcZCoOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcZCoeD6EeiAkN-mMiInaQ" name="sendImage">
+      <modelElement href="chatroom.uml#_bqrAEOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcbe7eD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcbe7uD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gcbe7-D6EeiAkN-mMiInaQ" name="path">
+        <modelElement href="chatroom.uml#_bqrAEeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gcbe8OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gcbe8eD6EeiAkN-mMiInaQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gcbe8uD6EeiAkN-mMiInaQ" comments="_gcZCouD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcZCo-D6EeiAkN-mMiInaQ" name="removeRoomfromList">
+      <modelElement href="chatroom.uml#_bqrAEuD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gcbe8-D6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gcbe9OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gc1ukOD6EeiAkN-mMiInaQ" comments="_gcg-cOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcg-ceD6EeiAkN-mMiInaQ" name="ChatRoomView" associationsIn="_gbiHAOD6EeiAkN-mMiInaQ" associationsOut="_gcX0gOD6EeiAkN-mMiInaQ _gco6QOD6EeiAkN-mMiInaQ _gcqIYOD6EeiAkN-mMiInaQ _gcrWgOD6EeiAkN-mMiInaQ _gcskoOD6EeiAkN-mMiInaQ _gctywOD6EeiAkN-mMiInaQ _gcvA4OD6EeiAkN-mMiInaQ _gcw2EOD6EeiAkN-mMiInaQ _gcyEMOD6EeiAkN-mMiInaQ _gczSUOD6EeiAkN-mMiInaQ _gcz5YOD6EeiAkN-mMiInaQ" generalizations="_gc0gcOD6EeiAkN-mMiInaQ">
+    <modelElement href="chatroom.uml#_bq5CgOD6EeiAkN-mMiInaQ"/>
+    <visualProperties xmi:id="_gc1ukeD6EeiAkN-mMiInaQ" position="453.0,-991.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gc1ukuD6EeiAkN-mMiInaQ" label="+"/>
+    <attributes xmi:id="_gc1uk-D6EeiAkN-mMiInaQ" defaultValue="5925793743594080359L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="chatroom.uml#_bt4sIOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gc1ulOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uleD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uluD6EeiAkN-mMiInaQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1ul-D6EeiAkN-mMiInaQ" name="v2mAdpt">
+      <modelElement href="chatroom.uml#_bt5TMeD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gc1umOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1umeD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1umuD6EeiAkN-mMiInaQ" name="IChatRoomView2ModelAdapter">
+        <modelElement href="chatroom.uml#_bqn8wOD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1um-D6EeiAkN-mMiInaQ" defaultValue="new JPanel()" name="mainPanel">
+      <modelElement href="chatroom.uml#_bt56QOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1unOD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt56QuD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1uneD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1unuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1un-D6EeiAkN-mMiInaQ" name="JPanel">
+        <modelElement href="chatroom.uml#_btaLAeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1uoOD6EeiAkN-mMiInaQ" defaultValue="new JPanel()" name="controlPanel">
+      <modelElement href="chatroom.uml#_bt6hUOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uoeD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt7IYOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1uouD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uo-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1upOD6EeiAkN-mMiInaQ" name="JPanel">
+        <modelElement href="chatroom.uml#_btaLAeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1upeD6EeiAkN-mMiInaQ" defaultValue="new JScrollPane()" name="displayPanel">
+      <modelElement href="chatroom.uml#_bt7IYeD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1upuD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt7vcOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1up-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uqOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uqeD6EeiAkN-mMiInaQ" name="JScrollPane">
+        <modelElement href="chatroom.uml#_btaLA-D6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1uquD6EeiAkN-mMiInaQ" defaultValue="new JTextArea(15,25)" name="textAreaRoom">
+      <modelElement href="chatroom.uml#_bt7vceD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uq-D6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt8WgOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1urOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1ureD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uruD6EeiAkN-mMiInaQ" name="JTextArea">
+        <modelElement href="chatroom.uml#_btayEeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1ur-D6EeiAkN-mMiInaQ" defaultValue="new JPanel()" name="panelText">
+      <modelElement href="chatroom.uml#_bt8WgeD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1usOD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt8Wg-D6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1useD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1usuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1us-D6EeiAkN-mMiInaQ" name="JPanel">
+        <modelElement href="chatroom.uml#_btaLAeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1utOD6EeiAkN-mMiInaQ" defaultValue="new JTextField()" name="textField">
+      <modelElement href="chatroom.uml#_bt89kOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uteD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt89kuD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1utuD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1ut-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uuOD6EeiAkN-mMiInaQ" name="JTextField">
+        <modelElement href="chatroom.uml#_btcAMeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1uueD6EeiAkN-mMiInaQ" defaultValue="new JButton(&quot;Send Msg&quot;)" name="btnSendMsg">
+      <modelElement href="chatroom.uml#_bt9koOD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uuuD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt-ywOD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1uu-D6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uvOD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uveD6EeiAkN-mMiInaQ" name="JButton">
+        <modelElement href="chatroom.uml#_btZj8eD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1uvuD6EeiAkN-mMiInaQ" defaultValue="new JPanel()" name="panelMessage">
+      <modelElement href="chatroom.uml#_bt-yweD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uv-D6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_bt_Z0OD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1uwOD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uweD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uwuD6EeiAkN-mMiInaQ" name="JPanel">
+        <modelElement href="chatroom.uml#_btaLAeD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1uw-D6EeiAkN-mMiInaQ" defaultValue="new JButton(&quot;Leave Room&quot;)" name="btnLeave">
+      <modelElement href="chatroom.uml#_bt_Z0eD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uxOD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_buAA4OD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1uxeD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uxuD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1ux-D6EeiAkN-mMiInaQ" name="JButton">
+        <modelElement href="chatroom.uml#_btZj8eD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gc1uyOD6EeiAkN-mMiInaQ" defaultValue="new JButton(&quot;Send Unknown&quot;)" name="btnSendUnknown">
+      <modelElement href="chatroom.uml#_buAA4eD6EeiAkN-mMiInaQ"/>
+      <stereotypes xmi:id="_gc1uyeD6EeiAkN-mMiInaQ" name="LegacyStyledElement">
+        <modelElement href="chatroom.uml#_buAn8OD6EeiAkN-mMiInaQ"/>
+      </stereotypes>
+      <visibility xmi:id="_gc1uyuD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1uy-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gc1uzOD6EeiAkN-mMiInaQ" name="JButton">
+        <modelElement href="chatroom.uml#_btZj8eD6EeiAkN-mMiInaQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gc1uzeD6EeiAkN-mMiInaQ" comments="_gchlgOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gciMkOD6EeiAkN-mMiInaQ" name="start">
+      <modelElement href="chatroom.uml#_bq63sOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gc1uzuD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gc1uz-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gc1u0OD6EeiAkN-mMiInaQ" comments="_gciMkeD6EeiAkN-mMiInaQ" targetConnectionVisual="_gciMkuD6EeiAkN-mMiInaQ" name="initGUI">
+      <modelElement href="chatroom.uml#_bq63seD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gc1u0eD6EeiAkN-mMiInaQ" label="-"/>
+      <cardinality xmi:id="_gc1u0uD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gc1u0-D6EeiAkN-mMiInaQ" comments="_gcizoOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcizoeD6EeiAkN-mMiInaQ" name="sendMsg">
+      <modelElement href="chatroom.uml#_bq7ewOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gc1u1OD6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gc1u1eD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gc1u1uD6EeiAkN-mMiInaQ" name="msg">
+        <modelElement href="chatroom.uml#_bq7eweD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gc1u1-D6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gc1u2OD6EeiAkN-mMiInaQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gc1u2eD6EeiAkN-mMiInaQ" comments="_gcjasOD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcjaseD6EeiAkN-mMiInaQ" name="ChatRoomView">
+      <modelElement href="chatroom.uml#_btd1YOD6EeiAkN-mMiInaQ"/>
+      <keywords xmi:id="_gc1u2uD6EeiAkN-mMiInaQ" keyword="create"/>
+      <visibility xmi:id="_gc1u2-D6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gc1u3OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gc1u3eD6EeiAkN-mMiInaQ">
+        <modelElement href="chatroom.uml#_btecceD6EeiAkN-mMiInaQ"/>
+        <type xmi:id="_gc1u3uD6EeiAkN-mMiInaQ" name="ChatRoomView">
+          <modelElement href="chatroom.uml#_bq5CgOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gc1u3-D6EeiAkN-mMiInaQ" name="adpt">
+        <modelElement href="chatroom.uml#_btd1YeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gc1u4OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gc1u4eD6EeiAkN-mMiInaQ" name="IChatRoomView2ModelAdapter">
+          <modelElement href="chatroom.uml#_bqn8wOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gc1u4uD6EeiAkN-mMiInaQ" comments="_gcjasuD6EeiAkN-mMiInaQ" targetConnectionVisual="_gcjas-D6EeiAkN-mMiInaQ" name="addComponent">
+      <modelElement href="chatroom.uml#_btwJQOD6EeiAkN-mMiInaQ"/>
+      <visibility xmi:id="_gc1u4-D6EeiAkN-mMiInaQ" label="+"/>
+      <cardinality xmi:id="_gc1u5OD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gc1u5eD6EeiAkN-mMiInaQ" name="component">
+        <modelElement href="chatroom.uml#_btwJQeD6EeiAkN-mMiInaQ"/>
+        <cardinality xmi:id="_gc1u5uD6EeiAkN-mMiInaQ" label="1" max="1" min="1"/>
+        <type xmi:id="_gc1u5-D6EeiAkN-mMiInaQ" name="Component">
+          <modelElement href="chatroom.uml#_bs3_gOD6EeiAkN-mMiInaQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

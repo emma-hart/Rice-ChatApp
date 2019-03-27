@@ -1,0 +1,42 @@
+package common.api;
+
+import java.io.Serializable;
+import java.util.Set;
+import java.util.UUID;
+
+import provided.datapacket.ADataPacket;
+
+/**
+ * Interface for a chat room.
+ * 
+ * @author Design Group E
+ */
+public interface IChatRoom extends Serializable {
+	/**
+	 * Broadcast the data to all members in the chat room.
+	 * @param data the data to send.
+	 */
+	void broadcast(ADataPacket data);
+	
+	/**
+	 * Add a new representative to the chat room.
+	 * @param newRep the new member to add.
+	 */
+	void addRep(IRepresentative newRep);
+	
+	/**
+	 * Delete a representative from the chat room.
+	 * @param repToDelete the representative to delete.
+	 */
+	void deleteRep(IRepresentative repToDelete);
+	
+	/**
+	 * Get the name of the chat room.
+	 * @return name of the chat room.
+	 */
+	String getName();
+
+	UUID getID();
+	
+	Set<IRepresentative> getReps();
+}

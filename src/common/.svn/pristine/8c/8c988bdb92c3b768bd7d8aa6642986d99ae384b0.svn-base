@@ -1,0 +1,31 @@
+package common.api.data;
+
+import provided.datapacket.DataPacketIDFactory;
+import provided.datapacket.IDataPacketData;
+import provided.datapacket.IDataPacketID;
+
+/**
+ * A datapacket compatible data type that contains a text message.
+ * @author Design Group E
+ */
+public interface IText extends IDataPacketData {
+	/**
+	 * Retrieve the ID value directly from the interface.
+	 * getID() merely delegates to this method.
+	 * @return The host ID value associated with this data type.
+	 */
+	public static IDataPacketID GetID() {
+		return DataPacketIDFactory.Singleton.makeID(IText.class);
+	}
+	
+	@Override
+	public default IDataPacketID getID() {
+		return IText.GetID();
+	}
+
+	/**
+	 * Return the stored text message.
+	 * @return stored text
+	 */
+	public String getText();
+}

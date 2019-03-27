@@ -1,0 +1,46 @@
+package common;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import common.message.ChatroomDataPacket;
+
+import provided.datapacket.*;
+
+/**
+ * IMember defines the API for chat room members to receive a data transfer.
+ * 
+ * There is an local IMember instance associated with each local instance of IChatroom (which, 
+ * in turn, is likely associated with a mini MVC). A stub of IMember is held by the other members
+ * of the IChatroom in their instance of IChatroom, allowing them to communicate.
+ * 
+ * 
+ */
+public interface IMember extends Remote {
+	
+	/**
+	 * Receive a datapacket (from another member of the chat room) to this 
+	 * IMember and processes it.
+	 * 
+	 * @param dp The datapacket to receive
+	 * @throws RemoteException if an error occurs with remote connections.
+	 */
+	void receiveData(ChatroomDataPacket<?> dp) throws RemoteException;
+	
+	/**
+	 * Access method for the name of a member
+	 * 
+	 * @return the member's name
+	 * @throws RemoteException if an error occurs with remote connections.
+	 */
+	String getName() throws RemoteException;
+
+	/**
+	 * This method allows Users who only have access to each others' IMember stubs
+	 * to communicate at the IRemoteConnection level, i.e. communication outside 
+	 * any particular chatroom. This allows peers to "walk the graph".
+	 * @return The IRemoteConnection of the system that owns this IMember.
+	 * @throws RemoteException if an error occurs with remote connections.
+	 */
+	IRemoteConnection getRemoteConnection() throws RemoteException;
+
+}

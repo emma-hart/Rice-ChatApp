@@ -1,0 +1,32 @@
+package common.api.data;
+
+import provided.datapacket.DataPacketIDFactory;
+import provided.datapacket.IDataPacketData;
+import provided.datapacket.IDataPacketID;
+import provided.datapacket.ADataPacketAlgoCmd;
+
+/**
+ * Data type definition for a message that gives instruction on how to process a data type
+ * @author zhuxinyang
+ */
+public interface IInstruct extends IDataPacketData {
+	/**
+	 * Retrieve the ID value directly from the interface.
+	 * getID() merely delegates to this method.
+	 * @return The host ID value associated with this data type.
+	 */
+	public static IDataPacketID GetID() {
+		return DataPacketIDFactory.Singleton.makeID(IRequestInstruction.class);
+	}
+	
+	@Override
+	public default IDataPacketID getID() {
+		return IRequestInstruction.GetID();
+	}
+	
+	/**
+	 * Retrieve the command for processing a data type. 
+	 * @return a command for processing data packets of a specific data type
+	 */
+	public ADataPacketAlgoCmd<?, ?, ?, ?, ?> getCmd();
+}
